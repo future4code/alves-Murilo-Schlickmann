@@ -1,5 +1,5 @@
-const a =prompt="Digite sua idade:"
-const b =prompt="Digite a idade de seu melhor amigo"
+const a = prompt=("Digite sua idade:")
+const b = prompt=("Digite a idade de seu melhor amigo")
 
 console.log(a - b)
 
