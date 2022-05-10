@@ -1,6 +1,6 @@
-const a = prompt=("Digite sua idade:")
-const b = prompt=("Digite a idade de seu melhor amigo")
 
+let a = prompt=("Digite sua idade:")
+let b = prompt=("Digite a idade de seu melhor amigo")
 console.log(a - b)
 
 const resultado = a - b
