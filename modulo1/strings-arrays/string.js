@@ -17,3 +17,7 @@ Comidas.splice(4, 4);
 console.log(Comidass)
 
 console.log(Comidas)
+
+console.log(Comidas)
+console.log(Comidas)
+
