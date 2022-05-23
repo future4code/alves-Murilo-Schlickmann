@@ -49,3 +49,16 @@ $('#anoDeNascimento').change(function() {
   var age = Math.floor((today-dob) / (365.25 * 24 * 60 * 60 * 1000));
   alert(age+' years old'); 
 })*/
+//EX-03
+/*const a = (999)
+const b = (200)
+const c = (300)
+const d = (800)
+const e = (100)
+let numeros = [a, b, c, d, e]
+console.log(e ,b, c, d, a)*/
+
+//EX-04
+
+
+
