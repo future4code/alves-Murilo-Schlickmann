@@ -1,0 +1,19 @@
+.box1, .box2{
+    padding: 20px;
+    border: 2px black solid;
+    width: 100%;
+    background-color: blueviolet;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+}
+
+body{
+    background-color: blue;
+}
+
+p{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
