@@ -1,0 +1,50 @@
+.box1{
+    background-color: mediumvioletred;
+    color: black;
+}
+.box2{
+    background-color: gray;
+    color: black;
+    float: right;
+}
+
+.card {
+    justify-content: space-evenly;
+    border: 2px solid #333;
+
+    border-radius: 2%;
+
+    background-color: #fffaf2;
+
+    padding: 10px 0px;
+
+    color:#112506;
+
+    width: 350px;
+    
+    float: right;
+    justify-content: space-evenly;
+}
+.card-header{
+
+    text-align: center;
+
+    color: #010101;
+    justify-content: space-evenly;
+
+}
+.box3 {
+    display: inline-block;
+    background-color: #f2d;
+    width: 10%;
+    
+}
+.fixar{
+  border-top: 1px solid #333;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  background-color: #f2d;
+}
