@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 50px;
+    grid-template-rows: auto 10px 100px;
+}
+section {
+    width: 600px;
+    border: 5px solid goldenrod;
+    height: 100px;
+    margin: 16px;
+    grid-template-rows: auto 10px 100px;
+}
+.item1 {
+    background-color: gray;
+    grid-template-rows: auto 10px 100px;
+}
+
+.item2 {
+    background-color: gray;
+    grid-template-rows: auto 10px 100px;
+}
+
+.item3 {
+    background-color: gray;
+    grid-template-rows: auto 10px 100px;
+}
+
+.default {
+    display: grid;
+    grid-template-rows: auto 10px 100px;
+}
