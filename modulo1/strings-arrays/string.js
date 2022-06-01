@@ -14,3 +14,4 @@ Comidas.splice(2, 2);
 Comidas.splice(3, 3);
 Comidas.splice(4, 4);
 console.log(Comidas)
+console.log(Comidas)

@@ -2,70 +2,53 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen {
 body{
     background-color: black;
 }
 .title {
-    color: white;
+    color: red;
 }
 .buscar {
     color: white;
 }
 div {
     border-radius: 8px;
-    border: 1px solid black;
+    border: 5px solid white;
     width: 1080px;
     height: 100px;
-    display: inline-flex;
+    display: flex;
     grid-template-rows: auto;
-    min-width: 100px;
+    float: left;
 }
-
-.item1{
+.media-box{
     background-color: gray;
     color: black;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.item2{
-    background-color: gray;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0;
+    margin-right: 0;
+
 }
 
-.item3{
-    background-color: gray;
-    margin-left: 20px;
-    margin-right: 20px;
+.final {
+    text-align: center;
+    background-color: red;
+    color: black;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
-.item4{
-    background-color: gray;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.item5{
-    background-color: gray;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.item6{
-    background-color: gray;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.item7{
-    background-color: gray;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.item8{
-    background-color: gray;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 .default {
-    display: flex;
+    display: flexbox;
+}    
 }
+
+
+
+
+
+
 
 #justify-content-center {}
 
