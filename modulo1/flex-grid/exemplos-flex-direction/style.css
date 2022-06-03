@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+section {
+    width: 600px;
+    border: 5px solid goldenrod;
+    height: 10vh;
+    margin: 16px;
+}
+
+div {
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.item1 {
+    background-color: #a4acb4;
+}
+
+.item2 {
+    background-color: #f5c896;
+}
+
+.item3 {
+    background-color: #f4ece2;
+}
+.default{
+    display: flex;
+}
+
+.flex-direction-column{
+
+}

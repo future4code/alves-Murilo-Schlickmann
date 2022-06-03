@@ -1,0 +1,28 @@
+h1{
+    color: green;
+}
+.box-1{
+    display: inline-block;
+    background-color: red;
+    color: black;
+    font-size: 20px;
+}
+div, .box-1, .box-2{
+    display: inline-block;
+}
+.box-2{
+    padding: 15px, 15px, 15px, 15px;
+    display: inline-block;
+    background-color: orange;
+    color: yellow;
+    font-size: 20px;
+}
+.box-3{
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    display: block;
+}
+.box-4{
+    display: none;
+}
