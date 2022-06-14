@@ -26,11 +26,26 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>WhatsLab</title>
   </head>
   <body>
+   
+    <h2><label for="Destinatario">Enviar para:</label>
     
-    <!--
+      <select name="destino" id="destino">
+      <option value="Amanda" class="para">Amanda</option>
+      <option value="Julia" class="para">Julia</option>
+      <option value="Maicon" class="para">Maicon</option>
+      <option value="Paulinha" class="para">Paulinha</option>
+    </select>
+    <input type="mensagens" class="mensagem"></input></h2>
+       <button onclick="getElementById('demo').innerHTML = 'mensagem enviada'" class="enviar">Enviar</button>
+       <p id="demo"></p>
+        <div id="root"></div>
+  
+  </body>
+</html>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -40,5 +55,3 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
-</html>
